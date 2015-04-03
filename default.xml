@@ -585,6 +585,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="origin" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="origin" />
   
   <!-- copy build script -->
 	<project path="vendor/cyanide" name="android_vendor_cyanide" remote="origin" >
