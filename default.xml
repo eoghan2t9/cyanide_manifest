@@ -611,4 +611,8 @@
 	<project path="vendor/cyanide" name="android_vendor_cyanide" remote="origin" >
 	  <copyfile src="tools/build-cyanide.sh" dest="build-cyanide.sh" />
 	</project>
+
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
 </manifest>
