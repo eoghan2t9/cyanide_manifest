@@ -378,7 +378,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="origin" />
+  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="origin" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
@@ -606,7 +606,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="origin" />
   <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="origin" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="origin" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- copy build script -->
 	<project path="vendor/cyanide" name="android_vendor_cyanide" remote="origin" >
