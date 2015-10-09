@@ -33,6 +33,7 @@
   </project>
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vrtoxin" revision="mm6.0" />
   <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" />
 <!-- END VRTOXIN -->
@@ -155,7 +156,6 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
