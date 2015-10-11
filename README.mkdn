@@ -14,7 +14,7 @@ To get started with building VRToxin rom, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 Contact us for permission to access the private repositories.
 
-Then to initialize your local repository using the Fusion rom trees, use this command:
+Then to initialize your local repository using the VRToxin rom trees, use this command:
 
     repo init -u git://github.com/VRToxin/vrtoxin_manifest.git -b mm6.0
 
