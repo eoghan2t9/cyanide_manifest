@@ -32,16 +32,21 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
+  <project path="art" name="android_art" remote="vrtoxin" revision="mm6.0" />
+  <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
+  <project path="libcore" name="android_libcore" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vrtoxin" revision="mm6.0" />
+  <project path="system/core" name="android_system_core" remote="vrtoxin" revision="mm6.0" />
+  <project path="system/extras" name="android_system_extras" remote="vrtoxin" revision="mm6.0" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="vrtoxin" revision="mm6.0" />
+  <project path="system/vold" name="android_system_vold" remote="vrtoxin" revision="mm6.0" />
   <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" />
 <!-- END VRTOXIN -->
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
@@ -220,7 +225,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
@@ -297,15 +301,11 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 <!-- END CYANOGENMOD -->
 
