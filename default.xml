@@ -32,6 +32,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
+  <project path="art" name="android_art" remote="vrtoxin" revision="mm6.0" />
   <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
@@ -42,7 +43,6 @@
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
