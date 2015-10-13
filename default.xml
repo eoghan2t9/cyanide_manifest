@@ -54,11 +54,10 @@
   <project path="system/extras" name="android_system_extras" remote="vrtoxin" revision="mm6.0" />
   <project path="system/extras/su" name="android_system_extras_su" remote="vrtoxin" revision="mm6.0" />
   <project path="system/vold" name="android_system_vold" remote="vrtoxin" revision="mm6.0" />
-  <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" />
   <!-- copy build script -->
-	<project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" >
-	  <copyfile src="tools/build-vrtoxin.sh" dest="build-vrtoxin.sh" />
-	</project>
+  <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" >
+      <copyfile src="tools/build-vrtoxin.sh" dest="build-vrtoxin.sh" />
+  </project>
 <!-- END VRTOXIN -->
 
 <!-- BEGIN CYANOGENMOD -->
