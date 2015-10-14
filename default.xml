@@ -50,7 +50,6 @@
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="vrtoxin" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" remote="vrtoxin" revision="mm6.0-caf-8994" />
   <project path="libcore" name="android_libcore" remote="vrtoxin" revision="mm6.0" />
-  <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vrtoxin" revision="mm6.0" />
   <project path="system/core" name="android_system_core" remote="vrtoxin" revision="mm6.0" />
   <project path="system/extras" name="android_system_extras" remote="vrtoxin" revision="mm6.0" />
