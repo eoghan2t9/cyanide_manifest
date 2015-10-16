@@ -22,7 +22,9 @@ Then to sync up:
 
     repo sync
 
-Then to build:
+Building the System:
+
+Build VRToxin with the following commands
 
     . build/envsetup.sh
 
@@ -30,6 +32,13 @@ Then to build:
 
     make -j(16) vrtoxin
 
+Or use the VRToxin build script
+
+    ./build-vrtoxin.sh {options} {device}
+
+Example:
+
+    ./build-vrtoxin.sh -c3 -p -o3 -j16 klte
 
 You can speed up subsequent builds by adding this command in terminal:
 
