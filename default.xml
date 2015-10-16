@@ -43,6 +43,7 @@
   <project path="art" name="android_art" remote="vrtoxin" revision="mm6.0" />
   <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="vrtoxin" revision="mm6.0" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="vrtoxin" revision="mm6.0" />
@@ -163,7 +164,6 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
