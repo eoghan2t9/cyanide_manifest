@@ -18,6 +18,14 @@
   <remote  name="vrtoxin-dev"
            fetch="https://github.com/VRToxin-Devices" />
 
+  <!-- Fusion -->
+  <remote  name="fusion"
+           fetch="https://github.com/Fusion-Rom" />
+
+  <!-- BlackDragon bitbucket -->
+  <remote name="black-bit"
+          fetch="https://bitbucket.org/NL-BlackDragon" />
+
   <!-- CyanogenMod -->
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod" />
@@ -57,10 +65,13 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="vrtoxin" revision="mm6.0" />
   <project path="system/media" name="android_system_media" remote="vrtoxin" revision="mm6.0" />
   <project path="system/vold" name="android_system_vold" remote="vrtoxin" revision="mm6.0" />
-  <!-- copy build script -->
   <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="vrtoxin" revision="mm6.0" >
       <copyfile src="tools/build-vrtoxin.sh" dest="build-vrtoxin.sh" />
   </project>
+
+  <!-- SaberMod ToolChains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-sm" name="arm-eabi-5.2" remote="black-bit" revision="sm-eabi-5.2.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="SaberMod_Toolchains" remote="fusion" revision="arm-linux-androideabi-4.9" />
 <!-- END VRTOXIN -->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -542,7 +553,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" /> -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" />
