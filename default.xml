@@ -42,7 +42,7 @@
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
   <project path="art" name="android_art" remote="vrtoxin" revision="mm6.0" />
   <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="vrtoxin" revision="mm6.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="vrtoxin-dev" revision="mm6.0" />
   <project path="external/jemalloc" name="android_external_jemalloc" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
