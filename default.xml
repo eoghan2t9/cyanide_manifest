@@ -42,6 +42,7 @@
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
   <project path="art" name="android_art" remote="vrtoxin" revision="mm6.0" />
   <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="vrtoxin" revision="mm6.0" />
   <project path="external/jemalloc" name="android_external_jemalloc" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
@@ -88,7 +89,6 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
