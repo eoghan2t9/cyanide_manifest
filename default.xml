@@ -44,6 +44,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="vrtoxin" revision="mm6.0-caf-8916" />
@@ -208,7 +209,6 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
