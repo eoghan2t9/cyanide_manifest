@@ -48,6 +48,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="vrtoxin" revision="mm6.0" />
@@ -198,7 +199,6 @@
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
