@@ -50,6 +50,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vrtoxin" revision="mm6.0" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="vrtoxin" revision="mm6.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="vrtoxin" revision="mm6.0" />
