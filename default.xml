@@ -13,6 +13,9 @@
   <!-- VRTOXIN -->
   <remote  name="vrtoxin"
            fetch="https://github.com/VRToxin" />
+           
+  <remote name="private"
+          fetch="ssh://git@github.com/VRToxin" />
 
   <!-- VRTOXIN Devices -->
   <remote  name="vrtoxin-dev"
@@ -33,7 +36,7 @@
            sync-j="8" />
 
 <!-- BEGIN VRTOXIN -->
-  <project path="build" name="android_build" remote="vrtoxin" revision="mm6.0" >
+  <project path="build" name="android_build" remote="private" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="vrtoxin_manifest" remote="vrtoxin" revision="mm6.0" />
@@ -47,7 +50,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vrtoxin" revision="mm6.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="vrtoxin" revision="mm6.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="private" revision="mm6.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="vrtoxin" revision="mm6.0" />
@@ -68,7 +71,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" remote="vrtoxin" revision="mm6.0-caf-8994" />
   <project path="libcore" name="android_libcore" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="vrtoxin" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vrtoxin" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="private" revision="mm6.0" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="vrtoxin" revision="mm6.0" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="vrtoxin" revision="mm6.0" />
