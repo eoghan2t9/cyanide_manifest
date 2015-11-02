@@ -5,7 +5,7 @@ Support VRToxin
 ---------------
 Follow the VRToxin rom builds. Please visit and support our efforts
 
-[VRToxin Website] ()
+[VRToxin Website] (http://vrtoxin.net)
 
 Getting Started
 ---------------
