@@ -44,11 +44,8 @@
   <project path="bionic" name="android_bionic" remote="vrtoxin" revision="mm6.0" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="vrtoxin" revision="mm6.0" />
   <project path="external/busybox" name="android_external_busybox" remote="vrtoxin" revision="mm6.0" />
-  <project path="dalvik" name="android_dalvik" remote="vrtoxin" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="vrtoxin-dev" revision="mm6.0" />
-  <project path="external/jemalloc" name="android_external_jemalloc" remote="vrtoxin" revision="mm6.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="vrtoxin" revision="mm6.0" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vrtoxin" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="private" revision="mm6.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="vrtoxin" revision="mm6.0" />
@@ -185,6 +182,7 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
@@ -321,6 +319,7 @@
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
@@ -397,6 +396,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
