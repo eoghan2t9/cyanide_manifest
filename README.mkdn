@@ -16,7 +16,7 @@ Contact us for permission to access the private repositories.
 
 Then to initialize your local repository using the VRToxin rom trees, use this command:
 
-    repo init -u git://github.com/VRToxin/vrtoxin_manifest.git -b mm6.0
+    repo init -u git://github.com/VRToxin/vrtoxin_manifest.git -b M
 
 Then to sync up:
 
