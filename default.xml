@@ -458,6 +458,7 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="origin" revision="M" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="origin" revision="M" />
+  <project path="system/extras/su" name="android_system_extras_su" groups="pdk" remote="origin" revision="M" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
