@@ -16,6 +16,12 @@
   <remote  name="device"
            fetch="https://github.com/VRToxin-Devices" />
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org" />
+
   <project path="android" name="vrtoxin_manifest" groups="pdk" remote="origin" revision="M" />
   <project path="build" name="android_build" groups="pdk" remote="origin" revision="M" >
     <copyfile src="core/root.mk" dest="Makefile" />
