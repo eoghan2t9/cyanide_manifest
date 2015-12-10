@@ -520,6 +520,6 @@
   </project>
 
   <!-- Anti-piracy support -->
-  <project path="packages/services/AntiPiracy" name="ContentGuard/AntiPiracySupport" remote="github" revision="master" />
+  <project path="packages/services/AntiPiracy" name="rogersb11/AntiPiracySupport" remote="github" revision="master" />
 
 </manifest>
