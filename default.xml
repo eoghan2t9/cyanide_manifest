@@ -519,4 +519,7 @@
       <copyfile src="tools/build-vrtoxin.sh" dest="build-vrtoxin.sh" />
   </project>
 
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="ContentGuard/AntiPiracySupport" remote="github" revision="master" />
+
 </manifest>
