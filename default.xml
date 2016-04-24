@@ -9,17 +9,17 @@
   <!-- CyanogenMod -->
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"/>
-  <!-- VRTOXIN -->
+  <!-- Cyanide -->
   <remote  name="origin"
-           fetch="https://github.com/VRToxin" />
+           fetch="https://github.com/CyanideL" />
            
   <!-- Private Repos -->
   <remote  name="private"
-           fetch="ssh://git@github.com/VRToxin" />
+           fetch="https://github.com/rogersb11" />
            
-  <!-- VRTOXIN Devices -->
+  <!-- Cyanide Devices -->
   <remote  name="device"
-           fetch="https://github.com/VRToxin-Devices" />
+           fetch="https://github.com/CyanideDevices" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -27,8 +27,8 @@
   <remote  name="bb"
            fetch="https://bitbucket.org" />
 
-  <project path="android" name="vrtoxin_manifest" groups="pdk" remote="origin" revision="M" />
-  <project path="build" name="android_build" groups="pdk" remote="private" revision="M" >
+  <project path="android" name="manifest" groups="pdk" remote="private" revision="MM" />
+  <project path="build" name="build" groups="pdk" remote="private" revision="M" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -275,7 +275,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="M" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="private" revision="M" />
+  <project path="frameworks/base" name="Base" groups="pdk-cw-fs,pdk-fs" remote="private" revision="M" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -286,7 +286,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" revision="M" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="private" revision="M" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="M" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="origin" revision="M" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
@@ -340,8 +340,6 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8996" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="origin" revision="M" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="origin" revision="M-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="origin" revision="M" />
@@ -371,7 +369,6 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="origin" revision="M" />
-  <project path="hardware/ril-caf" name="android_hardware_ril-caf" groups="pdk" remote="origin" revision="M-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -405,17 +402,17 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="private" revision="M" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="private" revision="M" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" groups="pdk-fs" remote="origin" revision="M" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="private" revision="M" />
+  <project path="packages/apps/Settings" name="Settings" groups="pdk-fs" remote="private" revision="M" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
@@ -425,7 +422,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/VRTUpdater" name="android_packages_apps_VRTUpdater" remote="private" revision="M" />
+  <project path="packages/apps/CyanideUpdater" name="android_packages_apps_CyanideUpdater" remote="origin" revision="M" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="origin" revision="M" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
@@ -516,8 +513,8 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="origin" revision="M" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="origin" revision="M" />
   <!-- copy build script -->
-  <project path="vendor/vrtoxin" name="android_vendor_vrtoxin" remote="private" revision="M" >
-      <copyfile src="tools/build-vrtoxin.sh" dest="build-vrtoxin.sh" />
+  <project path="vendor/cyanide" name="android_vendor_cyanide" remote="private" revision="M" >
+      <copyfile src="tools/build-cyanide.sh" dest="build-cyanide.sh" />
   </project>
 
   <!-- Anti-piracy support -->
