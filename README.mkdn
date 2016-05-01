@@ -1,22 +1,16 @@
-VRToxin ROM !!
+Cyanide Android !!
 ==============
-
-Support VRToxin
----------------
-Follow the VRToxin rom builds. Please visit and support our efforts
-
-[VRToxin Website] (http://vrtoxin.net)
 
 Getting Started
 ---------------
 
-To get started with building VRToxin rom, you'll need to get
+To get started with building Cyanide rom, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 Contact us for permission to access the private repositories.
 
 Then to initialize your local repository using the VRToxin rom trees, use this command:
 
-    repo init -u git://github.com/VRToxin/vrtoxin_manifest.git -b M
+    repo init -u git://github.com/CyanideL/cyanide_manifest.git -b M
 
 Then to sync up:
 
@@ -24,15 +18,15 @@ Then to sync up:
 
 #Building the System:
 
-Build VRToxin with the following commands
+Build Cyanide with the following commands
 
     . build/envsetup.sh
 
     lunch
 
-    make -j{16} vrtoxin
+    make -j{16} cyanide
 
-Or use the VRToxin build script
+Or use the Cyanide build script
 
     ./build-vrtoxin.sh -j{16} {device}
 
