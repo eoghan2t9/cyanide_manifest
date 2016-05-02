@@ -6,9 +6,8 @@ Getting Started
 
 To get started with building Cyanide rom, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
-Contact us for permission to access the private repositories.
 
-Then to initialize your local repository using the VRToxin rom trees, use this command:
+Then to initialize your local repository using Cyanide source, use this command:
 
     repo init -u git://github.com/CyanideL/cyanide_manifest.git -b M
 
@@ -28,7 +27,7 @@ Build Cyanide with the following commands
 
 Or use the Cyanide build script
 
-    ./build-vrtoxin.sh -j{16} {device}
+    ./build-cyanide.sh -j{16} {device}
 
 You can speed up subsequent builds by adding this command in terminal:
 
