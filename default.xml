@@ -2,10 +2,9 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-6.0.1_r43"
-           remote="aosp"
-           sync-j="4" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-6.0.1_r43" />
   <!-- CyanogenMod -->
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"/>
